@@ -40,4 +40,4 @@
 
 ### 项目框架复现：
 
-请查看eBPF_FUSE/eBPF_FUSE_read/docs/framework_reproduction/extfuse_framework.pdf文件。
+请查看https://github.com/13186379707/boke/blob/main/eBPF_FUSE/eBPF_FUSE_read/docs/framework_reproduction/extfuse_framework.pdf文件。
