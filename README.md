@@ -13,7 +13,7 @@ ExtFUSE框架详情见：https://github.com/13186379707/boke/tree/main/ExtFUSE_d
 
 - **libExtFUSE的使用是可选的，独立于lifuse。**向libfuse注册的现有文件系统处理程序继续驻留在用户空间中。因此，它们的调用会引起上下文切换，因此，我们将它们的执行称为慢路径。使用ExtFUSE，用户空间还可以注册内核扩展，当从VFS接收到文件系统请求时立即调用这些扩展，以便允许在内核中提供这些扩展。我们将内核内执行称为快速路径。根据快速路径的返回值，可以将请求标记为已服务，或者通过慢路径将请求发送到用户空间守护进程，以便根据需要进行复杂的处理。快速路径还可以返回一个特殊值，指示ExtFUSE驱动程序插入并将请求转发到下层文件系统。但是，此特性仅适用于可堆叠的用户文件系统，并且在内核中加载扩展时进行验证。
 
-ExtFUSE框架的复现过程详情见：https://github.com/13186379707/boke/blob/main/ExtFUSE_document/framework_reproduction/extfuse_framework.pdf文件
+ExtFUSE框架的复现过程详情见：https://github.com/13186379707/boke/blob/main/ExtFUSE_document/framework_reproduction/extfuse_framework.pdf 文件
 
 ## 项目eBPF_FUSE_read：使用eBPF优化FUSE中的read方法性能
 
