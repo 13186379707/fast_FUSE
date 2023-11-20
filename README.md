@@ -20,7 +20,6 @@ ExtFUSE框架的复现过程详情见：https://github.com/13186379707/boke/blob
 详情见：https://github.com/13186379707/eunomia-bpf/tree/develop/eBPF_Supermarket/eBPF_FUSE/eBPF_FUSE_read
 
 ## 项目os_fuse：使用 eBPF 进行 serverless 场景下或 FUSE 文件系统的增强和性能优化
-
 ### （已有课题，是否可以更新一下去年的课题？）
 
 原本的赛题：https://github.com/oscomp/proj147-eBPF-FUSE
