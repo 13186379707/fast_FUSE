@@ -15,10 +15,10 @@ ExtFUSE框架详情见：https://github.com/13186379707/boke/tree/main/ExtFUSE_d
 
 ExtFUSE框架的复现过程详情见：https://github.com/13186379707/boke/blob/main/ExtFUSE_document/framework_reproduction/extfuse_framework.pdf 文件
 
-## 项目eBPF_FUSE_read：使用eBPF优化FUSE中的read方法性能
+## 子项目1、eBPF_FUSE_read：使用eBPF优化FUSE中的read方法性能
 
 详情见：https://github.com/13186379707/eunomia-bpf/tree/develop/eBPF_Supermarket/eBPF_FUSE/eBPF_FUSE_read
 
-## 项目os_fuse：使用 eBPF 进行 serverless 场景下或 FUSE 文件系统的增强和性能优化
+## 子项目2、os_fuse：使用 eBPF 进行 serverless 场景下或 FUSE 文件系统的增强和性能优化
 
-详情见：
+详情见：https://github.com/13186379707/fast_FUSE/tree/main/eBPF_FUSE/OS_FUSE
